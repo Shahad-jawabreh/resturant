@@ -1,0 +1,501 @@
+/* public css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;}
+a{
+    text-decoration: none;
+}
+.clearfix{
+    clear:both;
+}
+
+.overlly{
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, .2);
+}
+.container{
+    overflow: hidden;
+    width:88%;
+    margin: auto;
+}
+.marg-top{
+    margin-top: 100px;
+}
+/* public css */
+
+
+/* header */
+.box{
+   position: fixed;
+   width: 45px;
+   background-color: white;
+   right: 0;
+   top:30%;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+.box i{
+    width: 100%;
+    color: #666;
+    padding: 10px;
+    font-size: larger;
+    
+}
+.box i:hover{
+    color :#218fe6 ;
+}
+.header{
+   
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5)), url(../img/backgrounf.png);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+/* start navbar */
+
+.navbar{
+    padding-top: 15px;
+}
+
+.navbar .img{
+    width: 60%;
+    
+}
+
+.list{
+    width: 40%;
+   padding-top: 20px ;
+}
+
+.float-item{
+    float: left;
+
+}
+
+.item-list a{
+    float: left ;
+    width: 16%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    opacity: .8;
+}
+.home a{
+    opacity: 1;
+}
+.item-list a:hover{
+    color: orangered;
+}
+.home a:hover{
+    color : white;
+}
+.navbar .img img{
+    width: 18%;
+    cursor: pointer;
+}
+/* end navbar */
+
+/* start header-content */
+
+.header-content{
+   text-align: center;
+}
+.header-content h1 {
+    margin: 30px 0;
+    color: white;
+    font-size: 80px;
+    font-weight:  400;
+    font-family: "Alegreya";
+}
+
+.header-content p{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-bottom: 50px ;
+}
+ .button {
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.learn{
+    
+    background-color: #c1ab84;
+    color: white;
+}
+.header-content .book {
+   color: black;
+   background-color: white;
+}
+.header-content .learn:hover {
+    background-color: white;
+    color: black;
+}
+
+.header-content .book:hover{
+    opacity: .8;
+}
+/* end header-content */
+
+/* start family-business */
+.family-business{
+    overflow: hidden;
+}
+.family-business .img{
+    width: 50%;
+}
+.family-business .img img {
+    width: 90%;
+}
+.family-business .content{
+    width: 50%;
+    padding-top: 13%;
+    padding-left: 13px;
+}
+.para1{
+    font-family: "Alegreya" , serif;
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 5px 0;
+
+}
+.para2{
+    font-family: "Dancing Script" , serif;
+    color:  rgb(193, 171, 132);
+    font-size: 28px;
+    font-weight: 400;
+    padding: 5px 0;
+    
+}
+.para3{
+    font-family: "Alegreya Sans" , serif;
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 5px 0;
+    display: inline-block;
+}
+.icon{
+    background-color: rgb(193, 171, 132);
+    color: white;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 52px;
+    font-size: 24px;
+    
+}
+
+.family-business li {
+margin-top: 15px;
+}
+
+/* end .family- */
+
+/* start Reviewers */
+.Reviewers{
+    /* overflow: hidden; */
+    background-color: #f8f8f8;
+}
+.Reviewers .content{
+    width: 50%;
+}
+.Reviewers .img{
+    width: 50%;
+    margin-bottom: 100px;
+    padding-left: 5px;
+}
+.Reviewers .para3.p{
+    margin: 10px 20px 10px 0;
+
+}
+.Reviewers .img img{
+    width: 100%;
+}
+.fa-thumbs-up{
+    color:rgb(193, 171, 132) ;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.background-img{
+  background-image: url(../img/shutterstock.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position-y: 30%;
+
+}
+
+/* end .reviewers */
+
+/* start menue */
+.menu{
+    padding: 60px 0 ;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+.menu .meal {
+    width: 30%;
+    align-items: center;
+    margin: 20px 11px;
+}
+
+.menu .meal img{
+    width: 100%;
+
+}
+.menu .mael .img img {
+    width: 100%;
+}
+
+.menu h3{
+    padding: 20px 0;
+    font-size: 21px;
+}
+.menu .button{
+
+display: block;
+padding: 11px 20px;
+border-radius: 3px;
+margin-top: 11px;
+width: fit-content;
+margin: auto;
+margin-top: 40px;
+}
+
+/* end menu */
+
+/* contact start */
+.contact{
+    margin: 60px 0;
+    background-color:white
+}
+.contact .content {
+    width: 50%;
+}
+.contact .map{
+    width: 50%;
+}
+.contact .icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    font-size: 18px;
+}
+.contact li{
+    margin: 10px 0;
+}
+.details{
+    margin: 10px 0;
+}
+/* end contact */
+
+/* start footer */
+.footer{
+background-color: #403d38;
+padding: 60px 0;
+}
+.footer .block{
+    width: 25%;
+    color: #969696;
+    font-family: "Alegreya Sans" , serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 15px;
+    line-height: 33px;
+    
+}
+.footer a{
+    color: #969696;
+}
+.footer a:hover {
+    color: #E0E0E0;
+}
+.footer p{
+    margin: 25px 0;
+}
+.footer i{
+    display: inline-block;
+}
+.footer span{
+margin-left: 5px;
+
+}
+.footer li {
+    padding: 13px 0;
+    border-bottom: 1px rgba(255,255,255,0.05) solid;
+}
+.footer .title {
+    color: white;
+    font-family :"Alegreya", serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* ennnd */
+.end{
+    text-align: center;
+    background-color: #353330;
+    padding: 50px 0 40px 0;
+}    
+.end p{
+    color: rgb(119, 119, 119);
+    font-family: "Alegreya Sans", serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.end a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #484540;
+    border-radius: 50%;
+    text-align: center;
+}
+.end i{
+    color: rgb(140, 138, 134);
+    font-size: 24px;
+    line-height: 60px;
+}
+.end a:hover i{
+    width: 100%;
+    border-radius: 50%;
+    color: white;
+}
+
+.end a:hover .fa-facebook-f{
+    background-color:rgb(59, 89, 152);
+}
+.end a:hover .fa-instagram{
+    background-color: rgb(18, 86, 136);
+}
+.end a:hover .fa-tumblr{
+    background-color: rgb(50, 80, 109);
+}
+.end a:hover .fa-twitter{
+    background-color: rgb(0, 172, 237);
+}
+.footer .border-none{
+    border: none;
+}
+.map-back{
+    background-image: url(../img/back.png);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-position-y: 75px;
+    background-repeat: no-repeat;
+    opacity: .1;
+}
+.fa-map-marker{
+    left: 0;
+    top: 20px;
+}
+.footer .paragraph{
+    padding-left: 24px;
+    margin: 0;
+}
+.relative {
+    position: relative;
+}
+.abso{
+    position: absolute;
+}
+/* end footer */
+@media (max-width:576px) {
+    .container{
+        width: 95%;
+    }
+        .navbar .img{
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            
+        } 
+        .navbar .img img {
+            width: 70%;
+        }
+        .list{
+            width: 100%;
+        
+        }
+       .list a{
+        padding-left: 7px;
+       }
+       /* end navbar */
+ 
+       .header-content img{
+        width: 83%;
+       }
+       .header-content h1{
+        font-size: 34px;
+       }
+       .header-content p{
+        font-size: 15px;
+       }
+       .header-content .button{
+        font-size: 14px;
+       }
+        .family-business .img{
+            width: 100%;
+            align-items: center;
+        }
+        .family-business .img img{
+            width: 100%;
+        }
+        .family-business .content{
+            width: 100%;
+        }
+
+
+
+        .float-item{
+            float: none;
+        }
+/* end family-business */
+
+/* .Reviewers */
+        .Reviewers .content{
+            width: 100%;
+        }
+        .Reviewers .img{
+            width: 100%;
+        }
+
+        /* meal */
+        .menu .meal{
+        width: 100%;
+        margin:20px  0;
+        }
+
+        /* contact */
+
+        .contact .content{
+            width: 100%;
+        }
+        .contact .map{
+            width: 100%;
+        }
+
+        /* footer */
+        .footer .block{
+            width: 100%;
+        }
+}       
